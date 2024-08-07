@@ -1,6 +1,6 @@
 import { Heart, Laugh, ThumbsDown, Trash } from "lucide-react";
 import { useDispatch, useSelector } from "../store";
-import { fetchPosts, thunkAddReaction, thunkRemovePost } from "../features";
+import { fetchPosts, thunkAddReaction, thunkRemovePost } from "../features/slice";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import { useEffect } from "react";

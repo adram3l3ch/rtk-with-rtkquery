@@ -1,7 +1,7 @@
 import { Heart, Laugh, ThumbsDown, Trash } from "lucide-react";
 import { useSelector } from "../store";
 import { useDispatch } from "react-redux";
-import { addReaction, removePost } from "../features";
+import { addReaction, removePost } from "../features/slice";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 

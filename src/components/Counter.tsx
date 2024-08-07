@@ -1,6 +1,6 @@
 import { useSelector } from "../store";
 import { useDispatch } from "react-redux";
-import { decrease, increase, reset } from "../features";
+import { decrease, increase, reset } from "../features/slice";
 
 const Counter = () => {
     const { count } = useSelector(store => store.counter);

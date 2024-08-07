@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { useDispatch } from "react-redux";
-import { createPost } from "../features";
+import { createPost } from "../features/slice";
 import { useSelector } from "../store";
 
 const initialState = { title: "", content: "" };

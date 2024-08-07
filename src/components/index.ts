@@ -4,3 +4,5 @@ export { default as PostsList } from "./PostsList";
 export { default as AddPostForm } from "./AddPostForm";
 export { default as ThunkPostsList } from "./ThunkPostsList";
 export { default as ThunkAddPostForm } from "./ThunkAddPostForm";
+export { default as TodosList } from "./TodosList";
+export { default as TodoForm } from "./TodoForm";

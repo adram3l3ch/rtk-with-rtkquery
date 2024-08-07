@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { useSelector } from "../store";
-import { updateUser } from "../features";
+import { updateUser } from "../features/slice";
 import { Counter } from "../components";
 
 const Basics = () => {
