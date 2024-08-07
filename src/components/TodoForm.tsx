@@ -15,7 +15,14 @@ const TodoForm = () => {
 
     return (
         <form className="todo-form" onSubmit={handleSubmit}>
-            <input type="text" name="newTodo" placeholder="Type here..." value={newTodo} onChange={({ target }) => setNewTodo(target.value)} />
+            <input
+                type="text"
+                name="newTodo"
+                placeholder="Type here..."
+                value={newTodo}
+                onChange={({ target }) => setNewTodo(target.value)}
+                required
+            />
             <button>
                 <BadgePlus width={20} />
                 ADD
