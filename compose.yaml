@@ -4,6 +4,8 @@ services:
         ports:
             - 5173:5173
             - 3000:3000
+        # volumes:
+        #     - ./src/database:/app/src/database
         develop:
             watch:
                 - path: ./package.json

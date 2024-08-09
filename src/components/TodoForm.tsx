@@ -9,7 +9,7 @@ const TodoForm = () => {
 
     const handleSubmit = async (e: FormEvent) => {
         e.preventDefault();
-        await addTodo({ completed: false, title: newTodo, userId: 1, id: +(todos?.[0].id || 0) + 1 });
+        await addTodo({ completed: false, title: newTodo, userId: 1, id: `${+(todos?.[0].id || 0) + 1}` });
         setNewTodo("");
     };
 
